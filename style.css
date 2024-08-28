@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ceccd1;
+  padding: 1rem 2rem;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 21px;
+  font-size: 14px;
+}
+
+ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #0a0018;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.right a {
+  font-weight: 500;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+.get-started {
+  padding: 10px 25px 10px 25px;
+  border-radius: 16px;
+  background-color: #9a68e1;
+}
+
+.get-started a {
+  font-weight: 900;
+  color: #fff;
+}
+
+.one {
+  display: flex;
+  background: url("./images/image61.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-acc {
+  max-width: 429px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  padding: 1.5rem 2rem;
+  border: 0.5px solid #ceccd1;
+  background: linear-gradient(180deg, #ffffff 19%, #9a68e1 100%);
+}
+
+.create-acc-inner h1 {
+  font-weight: 600;
+  font-size: 24px;
+  /* line-height: 28px; */
+  color: #0a0018;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  margin: 39px 0px;
+}
+
+form input {
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ae86e7;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  opacity: 1;
+}
+.input-with-image1 {
+  background: url("./images/user.png") no-repeat left center;
+}
+
+.create-acc button {
+  padding: 5px 150px;
+  border-radius: 16px;
+  background-color: #9a68e1;
+  font-weight: 900;
+  color: #fff;
+  border: none;
+}
+
+.form-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.or {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  /* align-items: center; */
+  max-width: 280px;
+}
+
+.or hr {
+  width: 100%;
+}
+
+.icons img {
+  margin-right: 25px;
+}
+.form-info p a {
+  color: #9a68e1;
+  text-decoration: none;
+}
